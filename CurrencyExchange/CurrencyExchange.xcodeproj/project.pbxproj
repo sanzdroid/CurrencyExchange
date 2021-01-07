@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34071EEC25A7CD8500F7D169 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34071EEB25A7CD8500F7D169 /* Util.swift */; };
 		34EA79AF25A68B54002F6056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA79AE25A68B54002F6056 /* AppDelegate.swift */; };
 		34EA79B125A68B54002F6056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA79B025A68B54002F6056 /* SceneDelegate.swift */; };
 		34EA79B325A68B54002F6056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA79B225A68B54002F6056 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		34EA79BB25A68B58002F6056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EA79B925A68B58002F6056 /* LaunchScreen.storyboard */; };
 		34EA79C625A68B59002F6056 /* CurrencyExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA79C525A68B59002F6056 /* CurrencyExchangeTests.swift */; };
 		34EA79D125A68B59002F6056 /* CurrencyExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA79D025A68B59002F6056 /* CurrencyExchangeUITests.swift */; };
+		34EA79E325A697C9002F6056 /* curCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA79E225A697C9002F6056 /* curCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34071EEB25A7CD8500F7D169 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		34EA79AB25A68B54002F6056 /* CurrencyExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EA79AE25A68B54002F6056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34EA79B025A68B54002F6056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		34EA79CC25A68B59002F6056 /* CurrencyExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EA79D025A68B59002F6056 /* CurrencyExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExchangeUITests.swift; sourceTree = "<group>"; };
 		34EA79D225A68B59002F6056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EA79E225A697C9002F6056 /* curCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		34EA79AD25A68B54002F6056 /* CurrencyExchange */ = {
 			isa = PBXGroup;
 			children = (
+				34EA79E125A697AB002F6056 /* Cell */,
 				34EA79AE25A68B54002F6056 /* AppDelegate.swift */,
 				34EA79B025A68B54002F6056 /* SceneDelegate.swift */,
 				34EA79B225A68B54002F6056 /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				34EA79B725A68B58002F6056 /* Assets.xcassets */,
 				34EA79B925A68B58002F6056 /* LaunchScreen.storyboard */,
 				34EA79BC25A68B58002F6056 /* Info.plist */,
+				34071EEB25A7CD8500F7D169 /* Util.swift */,
 			);
 			path = CurrencyExchange;
 			sourceTree = "<group>";
@@ -126,6 +132,14 @@
 				34EA79D225A68B59002F6056 /* Info.plist */,
 			);
 			path = CurrencyExchangeUITests;
+			sourceTree = "<group>";
+		};
+		34EA79E125A697AB002F6056 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				34EA79E225A697C9002F6056 /* curCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,8 @@
 			files = (
 				34EA79B325A68B54002F6056 /* ViewController.swift in Sources */,
 				34EA79AF25A68B54002F6056 /* AppDelegate.swift in Sources */,
+				34071EEC25A7CD8500F7D169 /* Util.swift in Sources */,
+				34EA79E325A697C9002F6056 /* curCell.swift in Sources */,
 				34EA79B125A68B54002F6056 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
