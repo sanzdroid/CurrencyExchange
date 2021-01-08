@@ -80,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34071F1325A7F1AB00F7D169 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				34071EEB25A7CD8500F7D169 /* Util.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		34EA79A225A68B53002F6056 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +111,7 @@
 		34EA79AD25A68B54002F6056 /* CurrencyExchange */ = {
 			isa = PBXGroup;
 			children = (
+				34071F1325A7F1AB00F7D169 /* Utility */,
 				34EA79E125A697AB002F6056 /* Cell */,
 				34EA79AE25A68B54002F6056 /* AppDelegate.swift */,
 				34EA79B025A68B54002F6056 /* SceneDelegate.swift */,
@@ -111,7 +120,6 @@
 				34EA79B725A68B58002F6056 /* Assets.xcassets */,
 				34EA79B925A68B58002F6056 /* LaunchScreen.storyboard */,
 				34EA79BC25A68B58002F6056 /* Info.plist */,
-				34071EEB25A7CD8500F7D169 /* Util.swift */,
 			);
 			path = CurrencyExchange;
 			sourceTree = "<group>";
@@ -382,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -437,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
