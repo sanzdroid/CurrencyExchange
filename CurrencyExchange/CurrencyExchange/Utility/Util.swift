@@ -51,3 +51,4 @@ func dropShadow(view: UIView, color: UIColor, opacity: Float = 0.5, offSet: CGSi
     view.layer.shadowOffset = offSet
     view.layer.shadowRadius = radius
 }
+

@@ -138,10 +138,26 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func calculateAmount(text: String, index: Int) -> String{
+        
         let amount = Float(text) ?? 0
         let unit: Float = self.valueArray[index] as! Float
         let convertedAmt = amount * unit
-        return "\(convertedAmt)"
+        var finalAmt : String = ""
+        switch self.keyArray[index] as! String {
+        case "GBP":
+            finalAmt = "£ \(convertedAmt)"
+        case "AUD":
+            finalAmt = "A$ \(convertedAmt)"
+        case "JPY":
+            finalAmt = "¥ \(convertedAmt)"
+        case "USD":
+            finalAmt = "$ \(convertedAmt)"
+        case "CAD":
+            finalAmt = "C$ \(convertedAmt)"
+        default:
+            print("default")
+        }
+        return "\(finalAmt)"
     }
     
     //MARK: Keyboard move Up/Down Methods
